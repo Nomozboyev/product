@@ -1,0 +1,7 @@
+.starForm input{
+    opacity: 0;
+
+}
+.starForm label{
+    cursor: pointer;
+}

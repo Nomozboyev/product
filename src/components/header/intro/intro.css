@@ -1,0 +1,45 @@
+.Intro{
+    display: flex;
+    margin-bottom: 114px;
+
+}
+.intro__left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 500px;
+
+}
+.baner{
+    max-width: 465px;
+}
+.baner h1{
+    margin-bottom: 18px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #22343D;
+}
+.baner p {
+    font-size: 18px ;
+    font-weight: 400;
+    max-width: 465px;
+    margin-bottom: 45px;
+}
+.btnDiv{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 31px;
+
+}
+.watchVideo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #02897A;
+}
+.intro__reight{
+    max-width: 610px    ;
+}

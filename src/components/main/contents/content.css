@@ -1,0 +1,35 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 117px;
+}
+.content h2 {
+
+    font-size: 34px;
+    font-weight: 700;
+    color: #22343D;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.content p {
+    color: #22343D;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.contentList {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.contentList p{
+  text-align: left;
+}
+
+.card:hover{
+  transform: scale(1.01);
+}
+.title{
+  font-size: 24px;
+  color: #22343D;
+}

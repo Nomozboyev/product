@@ -1,0 +1,65 @@
+.price {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 150px;
+}
+.price h2 {
+  font-size: 34px;
+  font-weight: 700;
+  color: #22343d;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.price p {
+  text-align: center;
+  font-size: 16px;
+  color: #22343d;
+  margin-bottom: 50px;
+}
+.priceList {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+.priceCard {
+  background-color: #ffffff3b;
+
+  width: 323px;
+  height: 456px;
+  padding-top: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+.priceCard:hover{
+transform: scale(1.01);}
+.priceCard p{
+    font-weight: 550;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.priceCardName {
+  color: #22343d;
+  font-size: 24px;margin-bottom: 8px;
+}
+.valueDiv{
+    display: flex;
+    align-items:flex-end;
+    gap: 8px;
+}
+.valueDiv b{
+    font-size: 24px;
+    color: #02897A;
+}
+
+.priceValue{
+font-size: 76px;
+color: #02897A;
+font-weight: 900;
+}

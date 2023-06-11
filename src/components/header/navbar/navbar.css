@@ -1,0 +1,57 @@
+nav{
+    max-width: 1210px;
+    max-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+nav a {
+    text-decoration: none;
+    cursor: pointer;
+}
+.logo{
+    width: 180px;
+    
+}
+.logo img {
+    width: 40px ;
+    height: 36px;
+    margin-right: 16px;
+}
+.logo a {
+    display: flex;
+    justify-content:center  ;
+    align-items: center;
+}
+.logo h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: #173A56  ;
+}
+.link
+{
+    display: flex;
+    align-items: center;
+    max-width: 700px;
+    gap: 24px;
+
+}
+.link a {
+    color: #22343D;
+    font-weight: 500;
+}
+.link a:hover{
+    font-weight: 600;
+    transform: scale(1.05);
+}
+
+ .switch:hover{
+    cursor: pointer;
+ }
+    .yelow{
+        color: yellow;
+    }
+    .black{
+        color: black;
+    }

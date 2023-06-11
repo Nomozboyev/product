@@ -1,0 +1,20 @@
+footer {
+  background-color: #02897a;
+  border-radius: 20px;
+  padding-left: 51px;
+  height: 345px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__div h2 {
+  width: 510px;
+  padding-right: 80px;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  margin-bottom: 60px;
+  color: white;
+
+ 
+}
